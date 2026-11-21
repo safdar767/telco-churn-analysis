@@ -45,16 +45,13 @@ These are associations, not proven causes. Many groups overlap (for example a fi
 
 ## Dashboard
 
-![Telecom Customer Churn Dashboard](images/churn_dashboard.png)
+![Telecom Customer Churn Dashboard](churn_dashboard.png)
 
 ## Project Structure
 
-```
-├── churn_analysis.ipynb     # Data cleaning and analysis in Python
-├── powerbi/
-│   └── churn_dashboard.pbix
-├── images/
-│   └── churn_dashboard.png
+```├── churn_analysis.ipynb     # Data cleaning and analysis in Python
+├── (Power BI .pbix file)    # Interactive dashboard
+├── churn_dashboard.png      # Dashboard screenshot
 └── README.md
 ```
 
@@ -63,7 +60,7 @@ These are associations, not proven causes. Many groups overlap (for example a fi
 1. Download the dataset from Kaggle and place the CSV in the same folder as the notebook.
 2. Install the libraries: `pip install pandas`
 3. Run `churn_analysis.ipynb`. It saves a cleaned file, `churn_clean.csv`.
-4. Open `powerbi/churn_dashboard.pbix` in Power BI Desktop. If the data source path is different on your computer, update it in *Transform data → Data source settings*.
+4. Open `.pbix` in Power BI Desktop. If the data source path is different on your computer, update it in *Transform data → Data source settings*.
 
 ## Author
 
